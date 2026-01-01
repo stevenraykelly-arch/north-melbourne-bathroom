@@ -6,8 +6,8 @@ export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
             {/* CI/CD Verification Header */}
-            <div className="w-full bg-emerald-600 text-white text-center py-2 font-bold tracking-widest text-sm uppercase">
-                Auto-Deploy Verified! 🚀
+            <div className="w-full bg-purple-700 text-white text-center py-2 font-bold tracking-widest text-sm uppercase">
+                Sync Success - Purple Mode 🚀
             </div>
             {/* Hero Section */}
             <section className="relative w-full h-[90vh] flex items-center justify-center overflow-hidden bg-stone-900">
