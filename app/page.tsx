@@ -6,8 +6,8 @@ export default function Home() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between">
             {/* CI/CD Verification Header */}
-            <div className="w-full bg-orange-600 text-white text-center py-2 font-bold tracking-widest text-sm uppercase">
-                Testing Auto-Deploy - Orange Mode 🍊
+            <div className="w-full bg-blue-600 text-white text-center py-2 font-bold tracking-widest text-sm uppercase">
+                GitHub App Auto-Deploy Test - Blue Mode 🔵
             </div>
             {/* Hero Section */}
             <section className="relative w-full h-[90vh] flex items-center justify-center overflow-hidden bg-stone-900">
