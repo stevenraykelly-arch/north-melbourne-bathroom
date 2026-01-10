@@ -1,4 +1,4 @@
-# DIR: Manufacturing-Pipeline (v1.6 - Astro Edition)
+# DIR: Manufacturing-Pipeline (v1.7 - Librarian Edition)
 
 ## 1. PURPOSE
 Autonomous "Factory" for high-end trade sites using Astro (Static HTML) for maximum performance and minimum resource usage.
@@ -20,30 +20,35 @@ Autonomous "Factory" for high-end trade sites using Astro (Static HTML) for maxi
 
 ## 4. WORKFLOW (Layer 2 Orchestration)
 
-### Phase 1: Market Intelligence & Creative Direction
+### Phase 1: Research & Context
 1. **Search Grounding**: Use the `search` tool to analyze the specific subject matter and location (vegetation, architecture, terrain).
-2. **Keyword Discovery**: Identify 10+ geo-targeted and semantic keywords.
-3. **Data Store**: Save brief to `.tmp/market_data.json`.
+2. **Context Gathering**: Understand the "Librarian" context - what verifiable facts does the AI need?
 
-### Phase 2: Visual Asset Generation
-1. **Prompt Engineering**: Write photorealistic prompts for unique images for every section.
-2. **Guidelines**: No people, no license plates, daytime lighting, professional composition.
-3. **Storage**: Save unique assets to `public/images/`.
+### Phase 2: Keyword Discovery
+1. **Expansion**: Identify 10+ geo-targeted and semantic keywords beyond the user's list.
+2. **Data Store**: Save brief to `.tmp/market_data.json`.
 
-### Phase 3: High-End UI Manufacturing (Astro)
+### Phase 3: Asset Creation
+1. **Prompt Engineering**: Write photorealistic, research-backed prompts for unique images.
+2. **Production**: Generate unique assets to `public/images/`.
+
+### Phase 4: Page Build & Component Assembly
 1. **Structure**: Use `src/layouts/Layout.astro` and `src/pages/index.astro`.
-2. **Design Standards**: 
-   - Strategic Typography (blended weights).
-   - Functional Whitespace.
-   - Depth & Texture (shadows, blurs, grain).
-3. **SEO Mandate**: 
-   - Mandatory `<SEO />` component.
-   - Semantic HTML5 structure.
-   - Hyper-local content specificity.
+2. **Design Standards**: Apply "Hand-Crafted" typography, whitespace, and texture.
+3. **SEO Mandate**: Implement `<SEO />` and semantic HTML5.
 
-### Phase 4: Deterministic Deployment
-1. **Build**: Run `npm run build` to verify the static output.
-2. **Infrastructure**: Deploy using the factory's automated scripts to Coolify.
+### Phase 5: AI Optimization (GEO)
+1. **Data Feeding**: Add hyper-specific technical specs and comparison tables.
+2. **Trust Signals**: Embed verification badges (Licensed, Insured, etc.).
+
+### Phase 6: Integration & Polish
+1. **Routing**: Ensure all links and routing are functional.
+2. **Sitemap**: Update `sitemap.xml`.
+
+### Phase 7: Verification & Deployment
+1.  **Keyword Audit**: Explicitly check that all User Provided and Researched keywords are present in the H1, H2, or body.
+2.  **Build**: Run `npm run build` to verify the static output.
+3.  **Infrastructure**: Deploy using the factory's automated scripts to Coolify.
 
 ## 5. COOLIFY DEPLOYMENT PROTOCOL
 (Unchanged - using Nixpacks for Astro)

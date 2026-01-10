@@ -28,7 +28,9 @@ def provision_factory(project_name, repo_path):
     else:
         payload = {"name": project_name}
         resp = requests.post(f"{COOLIFY_API_URL}/projects", headers=headers, json=payload)
-        resp.raise_for_status()
+        if resp.status_code not in [200, 201]:
+            print(f"Error creating project: {resp.status_code} - {resp.text}")
+            resp.raise_for_status()
         project = resp.json()
         project_uuid = project.get('uuid')
     
